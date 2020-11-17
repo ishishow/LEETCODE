@@ -1,5 +1,4 @@
 import "strconv"
-
 func isPalindrome(x int) bool {
 	s := strconv.Itoa(x)
 	r := []rune(s)
